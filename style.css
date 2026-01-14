@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Figtree";
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    background-color:hsl(47, 88%, 63%) ;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: Figtree;
+}
+.card .learn{
+    
+    background-color: hsl(47, 88%, 63%);
+    padding: 3px;
+    border-radius: 4px;
+    margin:10px;
+}
+
+.card time{
+    margin: 10px;
+    font-size: 13px;
+    display: block;
+}
+.card{
+    width: 19rem;
+    box-shadow: 5px 10px #000;
+    border-radius: 16px;
+    background-color: white;
+    padding: 16px;
+
+
+}
+.card h1{
+    font-size: 18px;
+    margin: 10px;
+}
+.card p{
+    font-size: 14px;
+    margin: 10px;
+}
+
+.card .illus{
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.card .img-profile{
+    width: 2rem;
+}
+.card .name{
+    font-size: 12px;
+   
+}
+.img-profile, .name{
+     vertical-align: middle;
+}
